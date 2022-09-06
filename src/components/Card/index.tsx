@@ -12,7 +12,6 @@ export default function Card({ title }: CardProps) {
       <Text>{title}</Text>
       <Image
         source={{ uri: "https://picsum.photos/100" }}
-        // source={bannerImg}
         style={styles.image}
       />
     </View>
